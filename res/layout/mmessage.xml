@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/mmsg_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F40"
+        ></Button>
+     <Button
+        android:id="@+id/mmsg_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R90"
+        ></Button>
+
+     <Button
+        android:id="@+id/mmsg_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="边长40mm正方形"
+        ></Button>
+     
+    <TextView
+        android:id="@+id/tiptextview"
+        android:textColor="#00F000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+    </TextView>
+	
+</LinearLayout>
